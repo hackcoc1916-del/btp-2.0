@@ -1,0 +1,82 @@
+Feature,CIC2017,CIC2018,Lycos,Status,Notes
+Destination Port,Destination Port,Dst Port,dst_port,TOPOLOGY_CANDIDATE,Temporarily retained for separate evaluation: Essential service indicator / flow rate metric with potential numerical drift.
+Protocol,Protocol,Protocol,ip_prot,SELECTED,Standard robust flow characteristic.
+Flow Duration,Flow Duration,Flow Duration,flow_duration,SELECTED,Standard robust flow characteristic.
+Total Fwd Packets,Total Fwd Packets,Tot Fwd Pkts,fwd_pkt_cnt,SELECTED,Standard robust flow characteristic.
+Total Backward Packets,Total Backward Packets,Tot Bwd Pkts,bwd_pkt_cnt,SELECTED,Standard robust flow characteristic.
+Total Length of Fwd Packets,Total Length of Fwd Packets,TotLen Fwd Pkts,fwd_pkt_len_tot,SELECTED,Standard robust flow characteristic.
+Total Length of Bwd Packets,Total Length of Bwd Packets,TotLen Bwd Pkts,bwd_pkt_len_tot,SELECTED,Standard robust flow characteristic.
+Fwd Packet Length Max,Fwd Packet Length Max,Fwd Pkt Len Max,fwd_pkt_len_max,SELECTED,Standard robust flow characteristic.
+Fwd Packet Length Min,Fwd Packet Length Min,Fwd Pkt Len Min,fwd_pkt_len_min,SELECTED,Standard robust flow characteristic.
+Fwd Packet Length Mean,Fwd Packet Length Mean,Fwd Pkt Len Mean,fwd_pkt_len_mean,SELECTED,Standard robust flow characteristic.
+Fwd Packet Length Std,Fwd Packet Length Std,Fwd Pkt Len Std,fwd_pkt_len_std,SELECTED,Standard robust flow characteristic.
+Bwd Packet Length Max,Bwd Packet Length Max,Bwd Pkt Len Max,bwd_pkt_len_max,SELECTED,Standard robust flow characteristic.
+Bwd Packet Length Min,Bwd Packet Length Min,Bwd Pkt Len Min,bwd_pkt_len_min,SELECTED,Standard robust flow characteristic.
+Bwd Packet Length Mean,Bwd Packet Length Mean,Bwd Pkt Len Mean,bwd_pkt_len_mean,SELECTED,Standard robust flow characteristic.
+Bwd Packet Length Std,Bwd Packet Length Std,Bwd Pkt Len Std,bwd_pkt_len_std,SELECTED,Standard robust flow characteristic.
+Flow Bytes/s,Flow Bytes/s,Flow Byts/s,bytes_per_s,TOPOLOGY_CANDIDATE,Temporarily retained for separate evaluation: Essential service indicator / flow rate metric with potential numerical drift.
+Flow Packets/s,Flow Packets/s,Flow Pkts/s,pkt_per_s,TOPOLOGY_CANDIDATE,Temporarily retained for separate evaluation: Essential service indicator / flow rate metric with potential numerical drift.
+Flow IAT Mean,Flow IAT Mean,Flow IAT Mean,iat_mean,SELECTED,Standard robust flow characteristic.
+Flow IAT Std,Flow IAT Std,Flow IAT Std,iat_std,SELECTED,Standard robust flow characteristic.
+Flow IAT Max,Flow IAT Max,Flow IAT Max,iat_max,SELECTED,Standard robust flow characteristic.
+Flow IAT Min,Flow IAT Min,Flow IAT Min,iat_min,SELECTED,Standard robust flow characteristic.
+Fwd IAT Total,Fwd IAT Total,Fwd IAT Tot,fwd_iat_tot,SELECTED,Standard robust flow characteristic.
+Fwd IAT Mean,Fwd IAT Mean,Fwd IAT Mean,fwd_iat_mean,SELECTED,Standard robust flow characteristic.
+Fwd IAT Std,Fwd IAT Std,Fwd IAT Std,fwd_iat_std,SELECTED,Standard robust flow characteristic.
+Fwd IAT Max,Fwd IAT Max,Fwd IAT Max,fwd_iat_max,SELECTED,Standard robust flow characteristic.
+Fwd IAT Min,Fwd IAT Min,Fwd IAT Min,fwd_iat_min,SELECTED,Standard robust flow characteristic.
+Bwd IAT Total,Bwd IAT Total,Bwd IAT Tot,bwd_iat_tot,SELECTED,Standard robust flow characteristic.
+Bwd IAT Mean,Bwd IAT Mean,Bwd IAT Mean,bwd_iat_mean,SELECTED,Standard robust flow characteristic.
+Bwd IAT Std,Bwd IAT Std,Bwd IAT Std,bwd_iat_std,SELECTED,Standard robust flow characteristic.
+Bwd IAT Max,Bwd IAT Max,Bwd IAT Max,bwd_iat_max,SELECTED,Standard robust flow characteristic.
+Bwd IAT Min,Bwd IAT Min,Bwd IAT Min,bwd_iat_min,SELECTED,Standard robust flow characteristic.
+Fwd PSH Flags,Fwd PSH Flags,Fwd PSH Flags,fwd_flag_psh,SELECTED,Standard robust flow characteristic.
+Bwd PSH Flags,Bwd PSH Flags,Bwd PSH Flags,bwd_flag_psh,SELECTED,Standard robust flow characteristic.
+Fwd URG Flags,Fwd URG Flags,Fwd URG Flags,fwd_flag_urg,SELECTED,Standard robust flow characteristic.
+Bwd URG Flags,Bwd URG Flags,Bwd URG Flags,bwd_flag_urg,SELECTED,Standard robust flow characteristic.
+Fwd Header Length,Fwd Header Length,Fwd Header Len,fwd_pkt_hdr_len_tot,SELECTED,Standard robust flow characteristic.
+Bwd Header Length,Bwd Header Length,Bwd Header Len,bwd_pkt_hdr_len_tot,SELECTED,Standard robust flow characteristic.
+Fwd Packets/s,Fwd Packets/s,Fwd Pkts/s,fwd_pkt_per_s,SELECTED,Standard robust flow characteristic.
+Bwd Packets/s,Bwd Packets/s,Bwd Pkts/s,bwd_pkt_per_s,SELECTED,Standard robust flow characteristic.
+Min Packet Length,Min Packet Length,Pkt Len Min,pkt_len_min,SELECTED,Standard robust flow characteristic.
+Max Packet Length,Max Packet Length,Pkt Len Max,pkt_len_max,SELECTED,Standard robust flow characteristic.
+Packet Length Mean,Packet Length Mean,Pkt Len Mean,pkt_len_mean,SELECTED,Standard robust flow characteristic.
+Packet Length Std,Packet Length Std,Pkt Len Std,pkt_len_std,SELECTED,Standard robust flow characteristic.
+Packet Length Variance,Packet Length Variance,Pkt Len Var,pkt_len_var,SELECTED,Standard robust flow characteristic.
+FIN Flag Count,FIN Flag Count,FIN Flag Cnt,flag_fin,SELECTED,Standard robust flow characteristic.
+SYN Flag Count,SYN Flag Count,SYN Flag Cnt,flag_SYN,SELECTED,Standard robust flow characteristic.
+RST Flag Count,RST Flag Count,RST Flag Cnt,flag_rst,SELECTED,Standard robust flow characteristic.
+PSH Flag Count,PSH Flag Count,PSH Flag Cnt,flag_psh,SELECTED,Standard robust flow characteristic.
+ACK Flag Count,ACK Flag Count,ACK Flag Cnt,flag_ack,SELECTED,Standard robust flow characteristic.
+URG Flag Count,URG Flag Count,URG Flag Cnt,flag_urg,SELECTED,Standard robust flow characteristic.
+CWE Flag Count,CWE Flag Count,CWE Flag Count,flag_cwr,SELECTED,Standard robust flow characteristic.
+ECE Flag Count,ECE Flag Count,ECE Flag Cnt,flag_ece,SELECTED,Standard robust flow characteristic.
+Down/Up Ratio,Down/Up Ratio,Down/Up Ratio,down_up_ratio,SELECTED,Standard robust flow characteristic.
+Average Packet Size,Average Packet Size,Pkt Size Avg,pkt_len_mean (Derived),SELECTED,Standard robust flow characteristic.
+Avg Fwd Segment Size,Avg Fwd Segment Size,Fwd Seg Size Avg,fwd_pkt_len_mean (Derived),SELECTED,Standard robust flow characteristic.
+Avg Bwd Segment Size,Avg Bwd Segment Size,Bwd Seg Size Avg,bwd_pkt_len_mean (Derived),SELECTED,Standard robust flow characteristic.
+Fwd Header Length.1,Fwd Header Length.1,Fwd Header Len (Derived),fwd_pkt_hdr_len_tot (Derived),SELECTED,Standard robust flow characteristic.
+Fwd Avg Bytes/Bulk,Fwd Avg Bytes/Bulk,Fwd Byts/b Avg,fwd_bulk_bytes_mean,SELECTED,Standard robust flow characteristic.
+Fwd Avg Packets/Bulk,Fwd Avg Packets/Bulk,Fwd Pkts/b Avg,fwd_bulk_pkt_mean,SELECTED,Standard robust flow characteristic.
+Fwd Avg Bulk Rate,Fwd Avg Bulk Rate,Fwd Blk Rate Avg,fwd_bulk_rate_mean,SELECTED,Standard robust flow characteristic.
+Bwd Avg Bytes/Bulk,Bwd Avg Bytes/Bulk,Bwd Byts/b Avg,bwd_bulk_bytes_mean,SELECTED,Standard robust flow characteristic.
+Bwd Avg Packets/Bulk,Bwd Avg Packets/Bulk,Bwd Pkts/b Avg,bwd_bulk_pkt_mean,SELECTED,Standard robust flow characteristic.
+Bwd Avg Bulk Rate,Bwd Avg Bulk Rate,Bwd Blk Rate Avg,bwd_bulk_rate_mean,SELECTED,Standard robust flow characteristic.
+Subflow Fwd Packets,Subflow Fwd Packets,Subflow Fwd Pkts,fwd_subflow_pkt_mean,SELECTED,Standard robust flow characteristic.
+Subflow Fwd Bytes,Subflow Fwd Bytes,Subflow Fwd Byts,fwd_subflow_bytes_mean,SELECTED,Standard robust flow characteristic.
+Subflow Bwd Packets,Subflow Bwd Packets,Subflow Bwd Pkts,bwd_subflow_pkt_mean,SELECTED,Standard robust flow characteristic.
+Subflow Bwd Bytes,Subflow Bwd Bytes,Subflow Bwd Byts,bwd_subflow_bytes_mean,SELECTED,Standard robust flow characteristic.
+Init_Win_bytes_forward,Init_Win_bytes_forward,Init Fwd Win Byts,fwd_tcp_init_win_bytes,SELECTED,Standard robust flow characteristic.
+Init_Win_bytes_backward,Init_Win_bytes_backward,Init Bwd Win Byts,bwd_tcp_init_win_bytes,SELECTED,Standard robust flow characteristic.
+act_data_pkt_fwd,act_data_pkt_fwd,Fwd Act Data Pkts,fwd_non_empty_pkt_cnt,SELECTED,Standard robust flow characteristic.
+min_seg_size_forward,min_seg_size_forward,Fwd Seg Size Min,fwd_pkt_hdr_len_min,SELECTED,Standard robust flow characteristic.
+Active Mean,Active Mean,Active Mean,active_mean,SELECTED,Standard robust flow characteristic.
+Active Std,Active Std,Active Std,active_std,SELECTED,Standard robust flow characteristic.
+Active Max,Active Max,Active Max,active_max,SELECTED,Standard robust flow characteristic.
+Active Min,Active Min,Active Min,active_min,SELECTED,Standard robust flow characteristic.
+Idle Mean,Idle Mean,Idle Mean,idle_mean,SELECTED,Standard robust flow characteristic.
+Idle Std,Idle Std,Idle Std,idle_std,SELECTED,Standard robust flow characteristic.
+Idle Max,Idle Max,Idle Max,idle_max,SELECTED,Standard robust flow characteristic.
+Idle Min,Idle Min,Idle Min,idle_min,SELECTED,Standard robust flow characteristic.
+EXTRA: bwd_pkt_hdr_len_min,Missing,Missing,bwd_pkt_hdr_len_min,SELECTED,Standard robust flow characteristic.
+EXTRA: bwd_non_empty_pkt_cnt,Missing,Missing,bwd_non_empty_pkt_cnt,SELECTED,Standard robust flow characteristic.

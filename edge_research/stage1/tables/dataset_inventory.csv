@@ -1,0 +1,4 @@
+Dataset,Number of Rows,Number of Columns,Feature Count,Class Count,Dataset Size (Disk),Estimated Memory Usage (RAM),Unique Classes
+CICIDS2017,3119345,85,84,16,1.12 GB,1.98 GB,BENIGN; Bot; DDoS; DoS GoldenEye; DoS Hulk; DoS Slowhttptest; DoS slowloris; FTP-Patator; Heartbleed; Infiltration; PortScan; SSH-Patator; Web Attack  Brute Force; Web Attack  Sql Injection; Web Attack  XSS
+CSE-CIC-IDS2018,16233002,80,79,15,6.41 GB,9.68 GB,Benign; Bot; Brute Force -Web; Brute Force -XSS; DDOS attack-HOIC; DDOS attack-LOIC-UDP; DDoS attacks-LOIC-HTTP; DoS attacks-GoldenEye; DoS attacks-Hulk; DoS attacks-SlowHTTPTest; DoS attacks-Slowloris; FTP-BruteForce; Infilteration; SQL Injection; SSH-Bruteforce
+Lycos-Unicas-IDS2018,13691268,78,77,14,5.14 GB,7.96 GB,Benign; Bot; DDoS HOIC; DDoS LOIC-HTTP; DDoS LOIC-UDP; DoS GoldenEye; DoS Hulk; DoS Slowhttptest; DoS Slowloris; FTP-Patator; SSH-Patator; Web Attack - Brute Force; Web Attack - Sql Injection; Web Attack - XSS

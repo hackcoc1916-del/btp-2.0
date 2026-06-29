@@ -1,0 +1,248 @@
+Dataset,Feature,NaN Count,Inf Count,-Inf Count,Total Invalid
+CICIDS2017,Flow Bytes/s,289960,1509,0,291469
+CICIDS2017,Flow Packets/s,288602,2867,0,291469
+CICIDS2017,Active Mean,288602,0,0,288602
+CICIDS2017,Active Max,288602,0,0,288602
+CICIDS2017,ACK Flag Count,288602,0,0,288602
+CICIDS2017,Average Packet Size,288602,0,0,288602
+CICIDS2017,Avg Bwd Segment Size,288602,0,0,288602
+CICIDS2017,Avg Fwd Segment Size,288602,0,0,288602
+CICIDS2017,Bwd Avg Bulk Rate,288602,0,0,288602
+CICIDS2017,Bwd Avg Bytes/Bulk,288602,0,0,288602
+CICIDS2017,Bwd Avg Packets/Bulk,288602,0,0,288602
+CICIDS2017,Bwd Header Length,288602,0,0,288602
+CICIDS2017,Bwd IAT Max,288602,0,0,288602
+CICIDS2017,Bwd IAT Mean,288602,0,0,288602
+CICIDS2017,Bwd IAT Min,288602,0,0,288602
+CICIDS2017,Bwd IAT Std,288602,0,0,288602
+CICIDS2017,Bwd IAT Total,288602,0,0,288602
+CICIDS2017,Bwd PSH Flags,288602,0,0,288602
+CICIDS2017,Bwd Packet Length Max,288602,0,0,288602
+CICIDS2017,Active Min,288602,0,0,288602
+CICIDS2017,Active Std,288602,0,0,288602
+CICIDS2017,Bwd Packet Length Min,288602,0,0,288602
+CICIDS2017,Bwd Packet Length Mean,288602,0,0,288602
+CICIDS2017,Bwd URG Flags,288602,0,0,288602
+CICIDS2017,Bwd Packet Length Std,288602,0,0,288602
+CICIDS2017,Destination IP,288602,0,0,288602
+CICIDS2017,Destination Port,288602,0,0,288602
+CICIDS2017,Down/Up Ratio,288602,0,0,288602
+CICIDS2017,Bwd Packets/s,288602,0,0,288602
+CICIDS2017,ECE Flag Count,288602,0,0,288602
+CICIDS2017,FIN Flag Count,288602,0,0,288602
+CICIDS2017,Flow Duration,288602,0,0,288602
+CICIDS2017,Flow IAT Max,288602,0,0,288602
+CICIDS2017,Flow IAT Mean,288602,0,0,288602
+CICIDS2017,Flow IAT Min,288602,0,0,288602
+CICIDS2017,Flow IAT Std,288602,0,0,288602
+CICIDS2017,CWE Flag Count,288602,0,0,288602
+CICIDS2017,Flow ID,288602,0,0,288602
+CICIDS2017,Fwd Avg Bulk Rate,288602,0,0,288602
+CICIDS2017,Fwd Avg Bytes/Bulk,288602,0,0,288602
+CICIDS2017,Fwd Avg Packets/Bulk,288602,0,0,288602
+CICIDS2017,Fwd Header Length,288602,0,0,288602
+CICIDS2017,Fwd Header Length.1,288602,0,0,288602
+CICIDS2017,Fwd IAT Max,288602,0,0,288602
+CICIDS2017,Fwd IAT Mean,288602,0,0,288602
+CICIDS2017,Fwd IAT Min,288602,0,0,288602
+CICIDS2017,Fwd IAT Std,288602,0,0,288602
+CICIDS2017,Fwd IAT Total,288602,0,0,288602
+CICIDS2017,Fwd PSH Flags,288602,0,0,288602
+CICIDS2017,Fwd Packet Length Max,288602,0,0,288602
+CICIDS2017,Fwd Packet Length Mean,288602,0,0,288602
+CICIDS2017,Fwd Packet Length Min,288602,0,0,288602
+CICIDS2017,Fwd Packet Length Std,288602,0,0,288602
+CICIDS2017,Fwd Packets/s,288602,0,0,288602
+CICIDS2017,Fwd URG Flags,288602,0,0,288602
+CICIDS2017,Idle Max,288602,0,0,288602
+CICIDS2017,Idle Mean,288602,0,0,288602
+CICIDS2017,Idle Min,288602,0,0,288602
+CICIDS2017,Idle Std,288602,0,0,288602
+CICIDS2017,Init_Win_bytes_backward,288602,0,0,288602
+CICIDS2017,Init_Win_bytes_forward,288602,0,0,288602
+CICIDS2017,Label,288602,0,0,288602
+CICIDS2017,Max Packet Length,288602,0,0,288602
+CICIDS2017,Min Packet Length,288602,0,0,288602
+CICIDS2017,PSH Flag Count,288602,0,0,288602
+CICIDS2017,Packet Length Mean,288602,0,0,288602
+CICIDS2017,Packet Length Std,288602,0,0,288602
+CICIDS2017,Packet Length Variance,288602,0,0,288602
+CICIDS2017,Protocol,288602,0,0,288602
+CICIDS2017,RST Flag Count,288602,0,0,288602
+CICIDS2017,SYN Flag Count,288602,0,0,288602
+CICIDS2017,Source IP,288602,0,0,288602
+CICIDS2017,Source Port,288602,0,0,288602
+CICIDS2017,Subflow Bwd Bytes,288602,0,0,288602
+CICIDS2017,Subflow Bwd Packets,288602,0,0,288602
+CICIDS2017,Subflow Fwd Bytes,288602,0,0,288602
+CICIDS2017,Subflow Fwd Packets,288602,0,0,288602
+CICIDS2017,Timestamp,288602,0,0,288602
+CICIDS2017,Total Backward Packets,288602,0,0,288602
+CICIDS2017,Total Fwd Packets,288602,0,0,288602
+CICIDS2017,Total Length of Bwd Packets,288602,0,0,288602
+CICIDS2017,Total Length of Fwd Packets,288602,0,0,288602
+CICIDS2017,URG Flag Count,288602,0,0,288602
+CICIDS2017,act_data_pkt_fwd,288602,0,0,288602
+CICIDS2017,min_seg_size_forward,288602,0,0,288602
+CSE-CIC-IDS2018,Flow Byts/s,59721,32826,0,92547
+CSE-CIC-IDS2018,Flow Pkts/s,0,86672,0,86672
+CSE-CIC-IDS2018,ACK Flag Cnt,0,0,0,0
+CSE-CIC-IDS2018,Active Max,0,0,0,0
+CSE-CIC-IDS2018,Active Std,0,0,0,0
+CSE-CIC-IDS2018,Bwd Blk Rate Avg,0,0,0,0
+CSE-CIC-IDS2018,Bwd Byts/b Avg,0,0,0,0
+CSE-CIC-IDS2018,Bwd Header Len,0,0,0,0
+CSE-CIC-IDS2018,Bwd IAT Max,0,0,0,0
+CSE-CIC-IDS2018,Bwd IAT Mean,0,0,0,0
+CSE-CIC-IDS2018,Bwd IAT Min,0,0,0,0
+CSE-CIC-IDS2018,Bwd IAT Std,0,0,0,0
+CSE-CIC-IDS2018,Bwd IAT Tot,0,0,0,0
+CSE-CIC-IDS2018,Bwd PSH Flags,0,0,0,0
+CSE-CIC-IDS2018,Bwd Pkt Len Max,0,0,0,0
+CSE-CIC-IDS2018,Bwd Pkt Len Mean,0,0,0,0
+CSE-CIC-IDS2018,Bwd Pkt Len Min,0,0,0,0
+CSE-CIC-IDS2018,Bwd Pkt Len Std,0,0,0,0
+CSE-CIC-IDS2018,Active Mean,0,0,0,0
+CSE-CIC-IDS2018,Active Min,0,0,0,0
+CSE-CIC-IDS2018,Bwd Pkts/s,0,0,0,0
+CSE-CIC-IDS2018,Bwd Pkts/b Avg,0,0,0,0
+CSE-CIC-IDS2018,Bwd Seg Size Avg,0,0,0,0
+CSE-CIC-IDS2018,Bwd URG Flags,0,0,0,0
+CSE-CIC-IDS2018,Dst IP,0,0,0,0
+CSE-CIC-IDS2018,Dst Port,0,0,0,0
+CSE-CIC-IDS2018,CWE Flag Count,0,0,0,0
+CSE-CIC-IDS2018,Down/Up Ratio,0,0,0,0
+CSE-CIC-IDS2018,FIN Flag Cnt,0,0,0,0
+CSE-CIC-IDS2018,ECE Flag Cnt,0,0,0,0
+CSE-CIC-IDS2018,Flow IAT Max,0,0,0,0
+CSE-CIC-IDS2018,Flow Duration,0,0,0,0
+CSE-CIC-IDS2018,Flow IAT Mean,0,0,0,0
+CSE-CIC-IDS2018,Flow IAT Min,0,0,0,0
+CSE-CIC-IDS2018,Flow IAT Std,0,0,0,0
+CSE-CIC-IDS2018,Flow ID,0,0,0,0
+CSE-CIC-IDS2018,Fwd Act Data Pkts,0,0,0,0
+CSE-CIC-IDS2018,Fwd Blk Rate Avg,0,0,0,0
+CSE-CIC-IDS2018,Fwd Byts/b Avg,0,0,0,0
+CSE-CIC-IDS2018,Fwd Header Len,0,0,0,0
+CSE-CIC-IDS2018,Fwd IAT Max,0,0,0,0
+CSE-CIC-IDS2018,Fwd IAT Mean,0,0,0,0
+CSE-CIC-IDS2018,Fwd IAT Min,0,0,0,0
+CSE-CIC-IDS2018,Fwd IAT Std,0,0,0,0
+CSE-CIC-IDS2018,Fwd IAT Tot,0,0,0,0
+CSE-CIC-IDS2018,Fwd PSH Flags,0,0,0,0
+CSE-CIC-IDS2018,Fwd Pkt Len Max,0,0,0,0
+CSE-CIC-IDS2018,Fwd Pkt Len Mean,0,0,0,0
+CSE-CIC-IDS2018,Fwd Pkt Len Min,0,0,0,0
+CSE-CIC-IDS2018,Fwd Pkt Len Std,0,0,0,0
+CSE-CIC-IDS2018,Fwd Pkts/b Avg,0,0,0,0
+CSE-CIC-IDS2018,Fwd Pkts/s,0,0,0,0
+CSE-CIC-IDS2018,Fwd Seg Size Avg,0,0,0,0
+CSE-CIC-IDS2018,Fwd Seg Size Min,0,0,0,0
+CSE-CIC-IDS2018,Fwd URG Flags,0,0,0,0
+CSE-CIC-IDS2018,Idle Max,0,0,0,0
+CSE-CIC-IDS2018,Idle Mean,0,0,0,0
+CSE-CIC-IDS2018,Idle Min,0,0,0,0
+CSE-CIC-IDS2018,Idle Std,0,0,0,0
+CSE-CIC-IDS2018,Init Bwd Win Byts,0,0,0,0
+CSE-CIC-IDS2018,Init Fwd Win Byts,0,0,0,0
+CSE-CIC-IDS2018,Label,0,0,0,0
+CSE-CIC-IDS2018,PSH Flag Cnt,0,0,0,0
+CSE-CIC-IDS2018,Pkt Len Max,0,0,0,0
+CSE-CIC-IDS2018,Pkt Len Mean,0,0,0,0
+CSE-CIC-IDS2018,Pkt Len Min,0,0,0,0
+CSE-CIC-IDS2018,Pkt Len Std,0,0,0,0
+CSE-CIC-IDS2018,Pkt Len Var,0,0,0,0
+CSE-CIC-IDS2018,Pkt Size Avg,0,0,0,0
+CSE-CIC-IDS2018,Protocol,0,0,0,0
+CSE-CIC-IDS2018,RST Flag Cnt,0,0,0,0
+CSE-CIC-IDS2018,SYN Flag Cnt,0,0,0,0
+CSE-CIC-IDS2018,Src IP,0,0,0,0
+CSE-CIC-IDS2018,Src Port,0,0,0,0
+CSE-CIC-IDS2018,Subflow Bwd Byts,0,0,0,0
+CSE-CIC-IDS2018,Subflow Bwd Pkts,0,0,0,0
+CSE-CIC-IDS2018,Subflow Fwd Byts,0,0,0,0
+CSE-CIC-IDS2018,Subflow Fwd Pkts,0,0,0,0
+CSE-CIC-IDS2018,Timestamp,0,0,0,0
+CSE-CIC-IDS2018,Tot Bwd Pkts,0,0,0,0
+CSE-CIC-IDS2018,Tot Fwd Pkts,0,0,0,0
+CSE-CIC-IDS2018,TotLen Bwd Pkts,0,0,0,0
+CSE-CIC-IDS2018,TotLen Fwd Pkts,0,0,0,0
+CSE-CIC-IDS2018,URG Flag Cnt,0,0,0,0
+Lycos-Unicas-IDS2018,active_max,0,0,0,0
+Lycos-Unicas-IDS2018,active_mean,0,0,0,0
+Lycos-Unicas-IDS2018,active_min,0,0,0,0
+Lycos-Unicas-IDS2018,active_std,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_bulk_bytes_mean,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_bulk_pkt_mean,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_bulk_rate_mean,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_flag_psh,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_flag_urg,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_iat_max,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_iat_mean,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_iat_min,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_iat_std,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_iat_tot,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_non_empty_pkt_cnt,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_pkt_cnt,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_pkt_hdr_len_min,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_pkt_hdr_len_tot,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_pkt_len_max,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_pkt_len_mean,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_pkt_len_min,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_pkt_len_std,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_pkt_len_tot,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_pkt_per_s,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_subflow_bytes_mean,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_subflow_pkt_mean,0,0,0,0
+Lycos-Unicas-IDS2018,bwd_tcp_init_win_bytes,0,0,0,0
+Lycos-Unicas-IDS2018,bytes_per_s,0,0,0,0
+Lycos-Unicas-IDS2018,down_up_ratio,0,0,0,0
+Lycos-Unicas-IDS2018,dst_port,0,0,0,0
+Lycos-Unicas-IDS2018,flag_SYN,0,0,0,0
+Lycos-Unicas-IDS2018,flag_ack,0,0,0,0
+Lycos-Unicas-IDS2018,flag_cwr,0,0,0,0
+Lycos-Unicas-IDS2018,flag_ece,0,0,0,0
+Lycos-Unicas-IDS2018,flag_fin,0,0,0,0
+Lycos-Unicas-IDS2018,flag_psh,0,0,0,0
+Lycos-Unicas-IDS2018,flag_rst,0,0,0,0
+Lycos-Unicas-IDS2018,flag_urg,0,0,0,0
+Lycos-Unicas-IDS2018,flow_duration,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_bulk_bytes_mean,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_bulk_pkt_mean,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_bulk_rate_mean,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_flag_psh,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_flag_urg,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_iat_max,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_iat_mean,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_iat_min,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_iat_std,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_iat_tot,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_non_empty_pkt_cnt,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_pkt_cnt,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_pkt_hdr_len_min,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_pkt_hdr_len_tot,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_pkt_len_max,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_pkt_len_mean,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_pkt_len_min,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_pkt_len_std,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_pkt_len_tot,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_pkt_per_s,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_subflow_bytes_mean,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_subflow_pkt_mean,0,0,0,0
+Lycos-Unicas-IDS2018,fwd_tcp_init_win_bytes,0,0,0,0
+Lycos-Unicas-IDS2018,iat_max,0,0,0,0
+Lycos-Unicas-IDS2018,iat_mean,0,0,0,0
+Lycos-Unicas-IDS2018,iat_min,0,0,0,0
+Lycos-Unicas-IDS2018,iat_std,0,0,0,0
+Lycos-Unicas-IDS2018,idle_max,0,0,0,0
+Lycos-Unicas-IDS2018,idle_mean,0,0,0,0
+Lycos-Unicas-IDS2018,idle_min,0,0,0,0
+Lycos-Unicas-IDS2018,idle_std,0,0,0,0
+Lycos-Unicas-IDS2018,ip_prot,0,0,0,0
+Lycos-Unicas-IDS2018,label,0,0,0,0
+Lycos-Unicas-IDS2018,pkt_len_max,0,0,0,0
+Lycos-Unicas-IDS2018,pkt_len_mean,0,0,0,0
+Lycos-Unicas-IDS2018,pkt_len_min,0,0,0,0
+Lycos-Unicas-IDS2018,pkt_len_std,0,0,0,0
+Lycos-Unicas-IDS2018,pkt_len_var,0,0,0,0
+Lycos-Unicas-IDS2018,pkt_per_s,0,0,0,0

@@ -1,0 +1,30 @@
+TEST DATASET,TRAIN CLASS,TEST CLASS,COMMON,UNSEEN
+CSE-CIC-IDS2018,BENIGN,Benign,YES,NO
+CSE-CIC-IDS2018,DDoS,DDOS attack-HOIC,YES,NO
+CSE-CIC-IDS2018,DDoS,DDoS attacks-LOIC-HTTP,YES,NO
+CSE-CIC-IDS2018,DoS Hulk,DoS attacks-Hulk,YES,NO
+CSE-CIC-IDS2018,Bot,Bot,YES,NO
+CSE-CIC-IDS2018,FTP-Patator,FTP-BruteForce,YES,NO
+CSE-CIC-IDS2018,SSH-Patator,SSH-Bruteforce,YES,NO
+CSE-CIC-IDS2018,Infiltration,Infilteration,YES,NO
+CSE-CIC-IDS2018,DoS Slowhttptest,DoS attacks-SlowHTTPTest,YES,NO
+CSE-CIC-IDS2018,DoS GoldenEye,DoS attacks-GoldenEye,YES,NO
+CSE-CIC-IDS2018,DoS slowloris,DoS attacks-Slowloris,YES,NO
+CSE-CIC-IDS2018,DDoS,DDOS attack-LOIC-UDP,YES,NO
+CSE-CIC-IDS2018,N/A (Unseen),Brute Force -Web,NO,YES
+CSE-CIC-IDS2018,N/A (Unseen),Brute Force -XSS,NO,YES
+CSE-CIC-IDS2018,N/A (Unseen),SQL Injection,NO,YES
+Lycos-Unicas-IDS2018,BENIGN,Benign,YES,NO
+Lycos-Unicas-IDS2018,DoS Hulk,DoS Hulk,YES,NO
+Lycos-Unicas-IDS2018,DDoS,DDoS HOIC,YES,NO
+Lycos-Unicas-IDS2018,DDoS,DDoS LOIC-HTTP,YES,NO
+Lycos-Unicas-IDS2018,FTP-Patator,FTP-Patator,YES,NO
+Lycos-Unicas-IDS2018,DoS Slowhttptest,DoS Slowhttptest,YES,NO
+Lycos-Unicas-IDS2018,Bot,Bot,YES,NO
+Lycos-Unicas-IDS2018,SSH-Patator,SSH-Patator,YES,NO
+Lycos-Unicas-IDS2018,DoS GoldenEye,DoS GoldenEye,YES,NO
+Lycos-Unicas-IDS2018,DoS slowloris,DoS Slowloris,YES,NO
+Lycos-Unicas-IDS2018,DDoS,DDoS LOIC-UDP,YES,NO
+Lycos-Unicas-IDS2018,N/A (Unseen),Web Attack - Brute Force,NO,YES
+Lycos-Unicas-IDS2018,N/A (Unseen),Web Attack - XSS,NO,YES
+Lycos-Unicas-IDS2018,N/A (Unseen),Web Attack - Sql Injection,NO,YES

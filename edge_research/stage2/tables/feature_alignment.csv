@@ -1,0 +1,82 @@
+Feature_Index,Canonical_Feature,CIC2017_Raw,CIC2018_Raw,Lycos_Raw,Alignment_Rule,Derivation_Strategy
+0,ACK Flag Count,ACK Flag Count,ACK Flag Cnt,flag_ack,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+1,Active Max,Active Max,Active Max,active_max,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+2,Active Mean,Active Mean,Active Mean,active_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+3,Active Min,Active Min,Active Min,active_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+4,Active Std,Active Std,Active Std,active_std,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+5,Average Packet Size,Average Packet Size,Pkt Size Avg,pkt_len_mean (Derived),Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+6,Avg Bwd Segment Size,Avg Bwd Segment Size,Bwd Seg Size Avg,bwd_pkt_len_mean (Derived),Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+7,Avg Fwd Segment Size,Avg Fwd Segment Size,Fwd Seg Size Avg,fwd_pkt_len_mean (Derived),Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+8,Bwd Avg Bulk Rate,Bwd Avg Bulk Rate,Bwd Blk Rate Avg,bwd_bulk_rate_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+9,Bwd Avg Bytes/Bulk,Bwd Avg Bytes/Bulk,Bwd Byts/b Avg,bwd_bulk_bytes_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+10,Bwd Avg Packets/Bulk,Bwd Avg Packets/Bulk,Bwd Pkts/b Avg,bwd_bulk_pkt_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+11,Bwd Header Length,Bwd Header Length,Bwd Header Len,bwd_pkt_hdr_len_tot,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+12,Bwd IAT Max,Bwd IAT Max,Bwd IAT Max,bwd_iat_max,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+13,Bwd IAT Mean,Bwd IAT Mean,Bwd IAT Mean,bwd_iat_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+14,Bwd IAT Min,Bwd IAT Min,Bwd IAT Min,bwd_iat_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+15,Bwd IAT Std,Bwd IAT Std,Bwd IAT Std,bwd_iat_std,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+16,Bwd IAT Total,Bwd IAT Total,Bwd IAT Tot,bwd_iat_tot,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+17,Bwd PSH Flags,Bwd PSH Flags,Bwd PSH Flags,bwd_flag_psh,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+18,Bwd Packet Length Max,Bwd Packet Length Max,Bwd Pkt Len Max,bwd_pkt_len_max,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+19,Bwd Packet Length Mean,Bwd Packet Length Mean,Bwd Pkt Len Mean,bwd_pkt_len_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+20,Bwd Packet Length Min,Bwd Packet Length Min,Bwd Pkt Len Min,bwd_pkt_len_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+21,Bwd Packet Length Std,Bwd Packet Length Std,Bwd Pkt Len Std,bwd_pkt_len_std,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+22,Bwd Packets/s,Bwd Packets/s,Bwd Pkts/s,bwd_pkt_per_s,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+23,Bwd URG Flags,Bwd URG Flags,Bwd URG Flags,bwd_flag_urg,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+24,CWE Flag Count,CWE Flag Count,CWE Flag Count,flag_cwr,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+25,Destination Port,Destination Port,Dst Port,dst_port,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+26,Down/Up Ratio,Down/Up Ratio,Down/Up Ratio,down_up_ratio,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+27,ECE Flag Count,ECE Flag Count,ECE Flag Cnt,flag_ece,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+28,EXTRA: bwd_non_empty_pkt_cnt,Missing,Missing,bwd_non_empty_pkt_cnt,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+29,EXTRA: bwd_pkt_hdr_len_min,Missing,Missing,bwd_pkt_hdr_len_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+30,FIN Flag Count,FIN Flag Count,FIN Flag Cnt,flag_fin,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+31,Flow Bytes/s,Flow Bytes/s,Flow Byts/s,bytes_per_s,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+32,Flow Duration,Flow Duration,Flow Duration,flow_duration,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+33,Flow IAT Max,Flow IAT Max,Flow IAT Max,iat_max,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+34,Flow IAT Mean,Flow IAT Mean,Flow IAT Mean,iat_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+35,Flow IAT Min,Flow IAT Min,Flow IAT Min,iat_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+36,Flow IAT Std,Flow IAT Std,Flow IAT Std,iat_std,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+37,Flow Packets/s,Flow Packets/s,Flow Pkts/s,pkt_per_s,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+38,Fwd Avg Bulk Rate,Fwd Avg Bulk Rate,Fwd Blk Rate Avg,fwd_bulk_rate_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+39,Fwd Avg Bytes/Bulk,Fwd Avg Bytes/Bulk,Fwd Byts/b Avg,fwd_bulk_bytes_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+40,Fwd Avg Packets/Bulk,Fwd Avg Packets/Bulk,Fwd Pkts/b Avg,fwd_bulk_pkt_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+41,Fwd Header Length,Fwd Header Length,Fwd Header Len,fwd_pkt_hdr_len_tot,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+42,Fwd Header Length.1,Fwd Header Length.1,Fwd Header Len (Derived),fwd_pkt_hdr_len_tot (Derived),Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+43,Fwd IAT Max,Fwd IAT Max,Fwd IAT Max,fwd_iat_max,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+44,Fwd IAT Mean,Fwd IAT Mean,Fwd IAT Mean,fwd_iat_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+45,Fwd IAT Min,Fwd IAT Min,Fwd IAT Min,fwd_iat_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+46,Fwd IAT Std,Fwd IAT Std,Fwd IAT Std,fwd_iat_std,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+47,Fwd IAT Total,Fwd IAT Total,Fwd IAT Tot,fwd_iat_tot,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+48,Fwd PSH Flags,Fwd PSH Flags,Fwd PSH Flags,fwd_flag_psh,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+49,Fwd Packet Length Max,Fwd Packet Length Max,Fwd Pkt Len Max,fwd_pkt_len_max,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+50,Fwd Packet Length Mean,Fwd Packet Length Mean,Fwd Pkt Len Mean,fwd_pkt_len_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+51,Fwd Packet Length Min,Fwd Packet Length Min,Fwd Pkt Len Min,fwd_pkt_len_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+52,Fwd Packet Length Std,Fwd Packet Length Std,Fwd Pkt Len Std,fwd_pkt_len_std,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+53,Fwd Packets/s,Fwd Packets/s,Fwd Pkts/s,fwd_pkt_per_s,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+54,Fwd URG Flags,Fwd URG Flags,Fwd URG Flags,fwd_flag_urg,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+55,Idle Max,Idle Max,Idle Max,idle_max,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+56,Idle Mean,Idle Mean,Idle Mean,idle_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+57,Idle Min,Idle Min,Idle Min,idle_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+58,Idle Std,Idle Std,Idle Std,idle_std,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+59,Init_Win_bytes_backward,Init_Win_bytes_backward,Init Bwd Win Byts,bwd_tcp_init_win_bytes,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+60,Init_Win_bytes_forward,Init_Win_bytes_forward,Init Fwd Win Byts,fwd_tcp_init_win_bytes,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+61,Max Packet Length,Max Packet Length,Pkt Len Max,pkt_len_max,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+62,Min Packet Length,Min Packet Length,Pkt Len Min,pkt_len_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+63,PSH Flag Count,PSH Flag Count,PSH Flag Cnt,flag_psh,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+64,Packet Length Mean,Packet Length Mean,Pkt Len Mean,pkt_len_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+65,Packet Length Std,Packet Length Std,Pkt Len Std,pkt_len_std,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+66,Packet Length Variance,Packet Length Variance,Pkt Len Var,pkt_len_var,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+67,Protocol,Protocol,Protocol,ip_prot,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+68,RST Flag Count,RST Flag Count,RST Flag Cnt,flag_rst,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+69,SYN Flag Count,SYN Flag Count,SYN Flag Cnt,flag_SYN,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+70,Subflow Bwd Bytes,Subflow Bwd Bytes,Subflow Bwd Byts,bwd_subflow_bytes_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+71,Subflow Bwd Packets,Subflow Bwd Packets,Subflow Bwd Pkts,bwd_subflow_pkt_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+72,Subflow Fwd Bytes,Subflow Fwd Bytes,Subflow Fwd Byts,fwd_subflow_bytes_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+73,Subflow Fwd Packets,Subflow Fwd Packets,Subflow Fwd Pkts,fwd_subflow_pkt_mean,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+74,Total Backward Packets,Total Backward Packets,Tot Bwd Pkts,bwd_pkt_cnt,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+75,Total Fwd Packets,Total Fwd Packets,Tot Fwd Pkts,fwd_pkt_cnt,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+76,Total Length of Bwd Packets,Total Length of Bwd Packets,TotLen Bwd Pkts,bwd_pkt_len_tot,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+77,Total Length of Fwd Packets,Total Length of Fwd Packets,TotLen Fwd Pkts,fwd_pkt_len_tot,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+78,URG Flag Count,URG Flag Count,URG Flag Cnt,flag_urg,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+79,act_data_pkt_fwd,act_data_pkt_fwd,Fwd Act Data Pkts,fwd_non_empty_pkt_cnt,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset
+80,min_seg_size_forward,min_seg_size_forward,Fwd Seg Size Min,fwd_pkt_hdr_len_min,Direct Rename / Mapping,Exact Match / Zero-Fill if Omitted in Subset

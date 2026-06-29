@@ -1,0 +1,4 @@
+Feature,CIC2017,CIC2018,Lycos,Evaluation_Plan
+Destination Port,Destination Port,Dst Port,dst_port,Assess downstream classification dependence and cross-dataset drift.
+Flow Bytes/s,Flow Bytes/s,Flow Byts/s,bytes_per_s,Assess downstream classification dependence and cross-dataset drift.
+Flow Packets/s,Flow Packets/s,Flow Pkts/s,pkt_per_s,Assess downstream classification dependence and cross-dataset drift.
