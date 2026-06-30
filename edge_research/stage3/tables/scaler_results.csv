@@ -1,0 +1,4 @@
+Scaler,Accuracy,F1_Score,ROC_AUC,Artifact_Name
+StandardScaler,0.9959,0.9899006486575253,0.9997034665207923,standard_scaler.pkl
+RobustScaler,0.9963,0.9908664527277216,0.9996398110145757,robust_scaler.pkl
+QuantileTransformer,0.9964,0.9911169600263201,0.9996537609343635,quantile_scaler.pkl

@@ -1,0 +1,9 @@
+Dataset,Task_Type,Total_Rows,Feature_Count,Missing_Values,Infinite_Values,Label_Class,Frequency,Percentage
+cic2017_multiclass.parquet,multiclass,2760330,81,0,0,BENIGN,2202731,79.79955295200212
+cic2017_multiclass.parquet,multiclass,2760330,81,0,0,DOS_DDOS,380688,13.79139450717849
+cic2017_multiclass.parquet,multiclass,2760330,81,0,0,PROBING,158930,5.757644919266899
+cic2017_multiclass.parquet,multiclass,2760330,81,0,0,BRUTE_FORCE,13835,0.5012081888759677
+cic2017_multiclass.parquet,multiclass,2760330,81,0,0,WEB_ATTACK,2180,0.07897606445606141
+cic2017_multiclass.parquet,multiclass,2760330,81,0,0,BOT,1966,0.07122336822046639
+cic2017_binary.parquet,binary,2760330,81,0,0,BENIGN,2202731,79.79955295200212
+cic2017_binary.parquet,binary,2760330,81,0,0,ATTACK,557599,20.200447047997887

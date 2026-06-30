@@ -5,6 +5,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-green.svg)]()
 [![Stage 1: Complete](https://img.shields.io/badge/Stage%201-Data%20Audit%20%26%20Domain%20Shift-success)]()
 [![Stage 2: Complete](https://img.shields.io/badge/Stage%202-Feature%20Alignment%20%26%20Preprocessing-success)]()
+[![Stage 3: Complete](https://img.shields.io/badge/Stage%203-Baseline%20Modeling%20%26%20Validation-success)]()
 
 ## 📌 Executive Overview
 
@@ -21,7 +22,7 @@ This repository contains the complete experimental pipelines, empirical evaluati
 
 The research workflow is divided into dedicated, sequential stages. Each stage is fully self-contained with its own executable scripts, empirical logs, generated tables, figures, and technical reports.
 
-```
+```text
 BTP 2.0/
 ├── data/                       # Raw datasets (ignored via .gitignore due to size)
 │   ├── CICIDS2017/
@@ -34,14 +35,22 @@ BTP 2.0/
 │   │   ├── scripts/
 │   │   ├── tables/
 │   │   └── README.md           # Stage 1 Detailed Documentation
-│   └── stage2/                 # STAGE 2: Preprocessing, Feature Alignment & Validation
-│       ├── artifacts/
+│   ├── stage2/                 # STAGE 2: Preprocessing, Feature Alignment & Validation
+│   │   ├── artifacts/
+│   │   ├── figures/
+│   │   ├── logs/
+│   │   ├── reports/
+│   │   ├── scripts/
+│   │   ├── tables/
+│   │   └── README.md           # Stage 2 Detailed Documentation
+│   └── stage3/                 # STAGE 3: Baseline Modeling & Internal Validation
 │       ├── figures/
 │       ├── logs/
+│       ├── models/
 │       ├── reports/
 │       ├── scripts/
 │       ├── tables/
-│       └── README.md           # Stage 2 Detailed Documentation
+│       └── README.md           # Stage 3 Detailed Documentation
 ├── .gitignore
 └── README.md                   # Main Project Overview (This File)
 ```
@@ -66,6 +75,12 @@ BTP 2.0/
 - **Scaler Experiments & GPU Acceleration:** Evaluated multiple feature scaling strategies (Standard, MinMax, Robust, Quantile) and validated high-performance GPU-based pipeline execution.
 - **Memory Analysis & Pipeline Validation:** Conducted strict memory footprint optimization and end-to-end pipeline integrity testing to ensure seamless downstream ingestion by representational learning models.
 
+### [Stage 3: Baseline Modeling & Internal Validation](edge_research/stage3/README.md)
+**Objective:** Establish the baseline machine learning performance and internal validation benchmarks for the network intrusion detection pipeline using the preprocessed data from Stage 2.
+- **Comprehensive Ensemble Evaluation:** Established rigorous baseline metrics across Logistic Regression, Random Forest, XGBoost, LightGBM, and Extra Trees on the CICIDS2017 baseline distribution.
+- **Hardware Acceleration Benchmarking:** Quantified training speedups achieved through hardware acceleration libraries (RAPIDS cuML, XGBoost-GPU) over standard CPU executions.
+- **Internal Overfitting Prevention:** Implemented stringent k-fold cross-validation and internal holdout testing to confirm the learning of generalizable representations.
+
 ---
 
 ## 🚀 Getting Started
@@ -73,7 +88,7 @@ BTP 2.0/
 ### Prerequisites
 Ensure you have Python 3.10+ installed along with the required dependencies in your virtual environment:
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn scikit-learn
+pip install numpy pandas scikit-learn matplotlib seaborn lightgbm xgboost
 ```
 
 ### Navigating the Stages
