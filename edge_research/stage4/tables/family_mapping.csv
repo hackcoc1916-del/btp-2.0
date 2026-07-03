@@ -1,0 +1,12 @@
+Dataset,Label_In_Parquet,Is_Attack_Family,Present_In_Training
+CIC2018,BENIGN,False,True
+CIC2018,BOT,True,True
+CIC2018,BRUTE_FORCE,True,True
+CIC2018,DOS_DDOS,True,True
+CIC2018,OTHER,False,False
+CIC2018,WEB_ATTACK,True,True
+Lycos,BENIGN,False,True
+Lycos,BOT,True,True
+Lycos,BRUTE_FORCE,True,True
+Lycos,DOS_DDOS,True,True
+Lycos,WEB_ATTACK,True,True

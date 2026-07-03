@@ -1,0 +1,14 @@
+Raw_Label,Family
+DoS Hulk,DOS_DDOS
+DoS GoldenEye,DOS_DDOS
+DoS Slowloris,DOS_DDOS
+DoS slowloris,DOS_DDOS
+DoS Slowhttptest,DOS_DDOS
+DDoS,DOS_DDOS
+PortScan,PROBING
+FTP-Patator,BRUTE_FORCE
+SSH-Patator,BRUTE_FORCE
+Web Attack – Brute Force,WEB_ATTACK
+Web Attack – XSS,WEB_ATTACK
+Web Attack – Sql Injection,WEB_ATTACK
+Bot,BOT

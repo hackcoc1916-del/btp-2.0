@@ -6,6 +6,7 @@
 [![Stage 1: Complete](https://img.shields.io/badge/Stage%201-Data%20Audit%20%26%20Domain%20Shift-success)]()
 [![Stage 2: Complete](https://img.shields.io/badge/Stage%202-Feature%20Alignment%20%26%20Preprocessing-success)]()
 [![Stage 3: Complete](https://img.shields.io/badge/Stage%203-Baseline%20Modeling%20%26%20Validation-success)]()
+[![Stage 4: Complete](https://img.shields.io/badge/Stage%204-Cross--Dataset%20Generalization-success)]()
 
 ## 📌 Executive Overview
 
@@ -43,14 +44,21 @@ BTP 2.0/
 │   │   ├── scripts/
 │   │   ├── tables/
 │   │   └── README.md           # Stage 2 Detailed Documentation
-│   └── stage3/                 # STAGE 3: Baseline Modeling & Internal Validation
+│   ├── stage3/                 # STAGE 3: Baseline Modeling & Internal Validation
+│   │   ├── figures/
+│   │   ├── logs/
+│   │   ├── models/
+│   │   ├── reports/
+│   │   ├── scripts/
+│   │   ├── tables/
+│   │   └── README.md           # Stage 3 Detailed Documentation
+│   └── stage4/                 # STAGE 4: Cross-Dataset Generalization Analysis
 │       ├── figures/
 │       ├── logs/
-│       ├── models/
 │       ├── reports/
 │       ├── scripts/
 │       ├── tables/
-│       └── README.md           # Stage 3 Detailed Documentation
+│       └── README.md           # Stage 4 Detailed Documentation
 ├── .gitignore
 └── README.md                   # Main Project Overview (This File)
 ```
@@ -81,6 +89,13 @@ BTP 2.0/
 - **Hardware Acceleration Benchmarking:** Quantified training speedups achieved through hardware acceleration libraries (RAPIDS cuML, XGBoost-GPU) over standard CPU executions.
 - **Internal Overfitting Prevention:** Implemented stringent k-fold cross-validation and internal holdout testing to confirm the learning of generalizable representations.
 
+### [Stage 4: Cross-Dataset Generalization Analysis](edge_research/stage4/README.md)
+**Objective:** Evaluate how well the Stage 3 baseline models generalize to unseen external datasets (CSE-CIC-IDS2018, Lycos-Unicas-IDS2018) to measure true domain shift resilience.
+- **Model Robustness Ranking:** Ranked models based on composite scores (F1, MCC, AUROC) to determine which architectures resist catastrophic degradation.
+- **Binary vs. Multiclass Transfer:** Demonstrated how binary classification (`BENIGN` vs `ATTACK`) reduces generalization penalties across unseen domains compared to specific threat classification.
+- **Unseen Attack Profiling:** Identified and measured the detection rates of zero-day attacks present in the evaluation sets that were never seen during training.
+- **Statistical Domain Shift Quantification:** Measured feature drift utilizing Kolmogorov-Smirnov tests and Jensen-Shannon divergence to mathematically correlate structural shift with performance degradation.
+
 ---
 
 ## 🚀 Getting Started
@@ -88,7 +103,7 @@ BTP 2.0/
 ### Prerequisites
 Ensure you have Python 3.10+ installed along with the required dependencies in your virtual environment:
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn lightgbm xgboost
+pip install numpy pandas scikit-learn matplotlib seaborn lightgbm xgboost scipy
 ```
 
 ### Navigating the Stages

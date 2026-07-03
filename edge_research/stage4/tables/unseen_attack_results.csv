@@ -1,0 +1,6 @@
+Dataset,Unseen_Label,Samples,Model,Attack_Detection_Rate,Most_Common_Prediction,Predicted_BENIGN,Predicted_ATTACK,Mean_Confidence
+CIC2018,OTHER,59,Logistic Regression,0.0,BENIGN,59,0,0.9998580823232406
+CIC2018,OTHER,59,Random Forest,0.0,BENIGN,59,0,0.98
+CIC2018,OTHER,59,Extra Trees,0.0,BENIGN,59,0,0.86
+CIC2018,OTHER,59,XGBoost,0.0,BENIGN,59,0,0.990929901599884
+CIC2018,OTHER,59,LightGBM,0.0,BENIGN,59,0,1.0
